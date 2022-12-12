@@ -97,7 +97,7 @@ public class Main {
             System.out.println("There is no path from source to destination");
         }
 
-    } /* END - modifiedBellmanFord */
+    } /* END - bellmanFordAlgorithm */
 
     public static void main(String[] args) {
 
@@ -123,6 +123,8 @@ public class Main {
 
         /* Choose destinationNode */
         int destinationNode = 1;
+
+        /* Set quantity nodes */
         int quantityNodes = 15;
 
         /* Initialize edgeList and add Edges */
